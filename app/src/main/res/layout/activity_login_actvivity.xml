@@ -4,24 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.loginActvivity"
-    >
+    tools:context=".login.loginActvivity">
 
-    <Button
-        android:id="@+id/button2"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="444dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#C5DCE6"
-        android:text="Button"
+        android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/unnamed" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center|center_vertical"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="שם משתמש"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:text="  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signinbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="כניסה"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="99dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="141dp" />
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/signinbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הרשם"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="272dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
