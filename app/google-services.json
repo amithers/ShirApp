@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248498453132",
+    "firebase_url": "https://shirproject-65491.firebaseio.com",
+    "project_id": "shirproject-65491",
+    "storage_bucket": "shirproject-65491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248498453132:android:6faa7a342a280a384499a9",
+        "android_client_info": {
+          "package_name": "com.example.shirapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248498453132-6lblo44speesnad0jkeh29cj7l7n45mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDsDv7cgBS9SvzZ3zM_Db4ZURfOa0Ib9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248498453132-6lblo44speesnad0jkeh29cj7l7n45mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
