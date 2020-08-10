@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.example.shirapp.Menu.MenuActivivty;
 import com.example.shirapp.R;
+import com.example.shirapp.defines.LogDefs;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseUser;
@@ -34,6 +35,7 @@ import java.net.UnknownHostException;
 public class loginActvivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
+    private static final String TAG = LogDefs.tagLogin;
 
     //xml fields
     private EditText usernameEditText;
